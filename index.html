@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Desiner</p>
+                <h1> Hi,I am <span>Biniyam</span><br> From DBU</h1>
+            </div>
+        </div>
+    </div>
+    <!---------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I am Biniyam Nibret a software engineer with a passion for creating innovative solutions and writing high-quality code. I am excels at designing and developing software applications that meet user needs and exceed expectations. Always eager to learn new technologies and stay up-to-date with the latest trends. I am approaches every challenge with creativity, diligence, and a drive for continuous improvement. I am enjoys exploring new coding languages.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exeperince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Bulding Android/ios Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="exeperince">
+                        <ul>
+                            <li>UI/UX Design Trainings.</li>
+                            <li>Learning Software Enginnering About three Years at DBU University.</li>
+                            <li>Learning Software Enginnering and Design From many You Tube Cources.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li>UI/UX Design Training Websites.</li><br>
+                            <li>You Tube Videos.</li>
+                            <li><br>Formal Software Enginnering Education.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -------services-------  ------>  
+<div id="services">
+    <div id="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <a href=""><i class='bx bx-code-alt'></i></a>
+               <h2>Web Design</h2>
+               <p>Web design is the process of creating the visual appearance and layout of websites on the internet. It involves various elements such as layout, colors, graphics, fonts, and overall aesthetic appeal to ensure a good user experience. Web designers use tools like HTML, CSS, and sometimes JavaScript to bring their creative designs to life on the web.
+               </p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+                 <a><i class='bx bx-crop' ></i></a>
+                <h2>UI/UX Design</h2>
+                <p> UI/UX design refers to the process of creating digital interfaces that are visually appealing, user-friendly, and provide a positive experience for the users. 
+                    UI (User Interface) design focuses on the look and feel of the digital product. It deals with the visual aspects such as layout, colors, typography, and overall design aesthetics.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <a href=""><i class='bx bxl-android'></i></a>
+                <h2>App Design</h2>
+                <p>App design refers to the process of creating the visual appearance and user interface of a mobile application or software application. It involves designing the layout, features, interactions, and overall look and feel of the app to provide a seamless and intuitive user experience. App design considers factors such as user preferences, usability, branding, aesthetics, and functionality to create a visually appealing and user-friendly interface
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+        </div>
+
+    </div>
+
+</div>
+<!---------------portfolio------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/pic1.jpg">
+                <div class="layer">
+                    <h3>Social Media APP</h3>
+                    <P>The app connects you to the talented people around the world.
+                        Download from app store.
+                    </P>
+                    <a href=""><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/pic2.jpg">
+                <div class="layer">
+                    
+                    <h3>Music APP</h3>
+                    <P>The app connects you to the talented people around the world.
+                        Download from app store.
+                    </P>
+                    <a href=""><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/pic3.jpg">
+                <div class="layer">
+                    <h3>Online Shopping APP</h3>
+                    <P>The app connects you to the talented people around the world.
+                        Download from app store.
+                    </P>
+                    <a href=""><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------contact------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a><i class='bx bx-envelope' ></i></a> biniyamnibret0@gmail.com</p>
+                <p><a><i class='bx bxs-phone'></i></a> 0988044692</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/biniyam.nibret.9?mibextid=ZbWKwL"><i class='bx bxl-meta' ></i></a>
+                <a href="https://www.instagram.com/biniyam_nibret?igsh=NHYzeTVpMTk3ZXpj"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://t.me/BiniyamNibret"><i class='bx bxl-telegram' ></i></a>
+                <a href="https://www.tiktok.com/@biniyamnibret1?_t=8lOWlLcbP5J&_r=1m"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+                <a href="Images/My Cv.txt" download class="btn btn2">Download Cv</a>
+                
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="alert('Successfully Submitted')" >Submit</button>
+                </form>
+            </div>
+       
+        </div>
+    </div>
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
